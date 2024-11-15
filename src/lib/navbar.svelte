@@ -71,6 +71,7 @@
 				'https://www.linkedin.com/in/iris-veress/',
 				'target="_blank"'
 			)}
+			{@render item('', 'Resume', '/', 'target="_blank"')}
 		</ul>
 	</div>
 </div>
