@@ -13,7 +13,7 @@
 <div class="my-4 flex">
 	<Navbar bind:isOpen={isSidebarOpen} />
 	<div
-		class={`flex-grow transition-all duration-300 ${isSidebarOpen ? 'ml-60 mr-8' : 'ml-16 mr-16'}`}
+		class={`flex-grow transition-all duration-300 ${isSidebarOpen ? 'ml-60 mr-8 md:ml-80' : 'ml-16 mr-16'}`}
 	>
 		{@render children()}
 	</div>

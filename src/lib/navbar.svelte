@@ -40,13 +40,14 @@
 	</button>
 
 	<div
-		class={`fixed left-0 top-0 z-10 h-full w-48 transform bg-gray-300 transition-transform duration-300 ${
-			isOpen ? 'translate-x-0' : '-translate-x-64'
+		class={`fixed left-0 top-0 z-10 h-full w-48 transform bg-gray-300 transition-transform duration-300 md:w-72 ${
+			isOpen ? 'translate-x-0' : '-translate-x-72'
 		}`}
 	>
 		<ul class="divide-y divide-white divide-opacity-10 pt-16">
 			<li class="px-6 py-4 font-bold uppercase text-white">
 				<span class="text-rose text-xl">Iris Veress</span>
+				<br />
 				<span class="text-light-gray-200">Developer</span>
 			</li>
 			{@render item(
