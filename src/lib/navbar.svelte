@@ -31,7 +31,7 @@
 	</button>
 
 	<div
-		class={`fixed left-0 top-0 z-10 h-full w-52 transform bg-gray-300 transition-transform duration-300 ${
+		class={`fixed left-0 top-0 z-10 h-full w-48 transform bg-gray-300 transition-transform duration-300 ${
 			isOpen ? 'translate-x-0' : '-translate-x-64'
 		}`}
 	>
