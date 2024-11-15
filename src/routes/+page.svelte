@@ -21,6 +21,7 @@
 				'I love learning new things. I sometimes get hyper-fixated on things and cannot stop researching more and more.'
 		}
 	];
+
 	const prfessionalInterests = [
 		'Backend development',
 		'AI & machine learning',
@@ -60,7 +61,7 @@
 		<p>
 			I'm an 18 year old final year high-school student and an <span class="text-green italic"
 				>aspiring software engineer</span
-			>.
+			> based in Romania.
 		</p>
 	</div>
 	<div class="my-8">
