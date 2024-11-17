@@ -3,6 +3,32 @@
 
 	const projects = [
 		{
+			title: 'OlympiAId',
+			description:
+				'A web app built with React.js, Express.js, MongoDB, Auth0 that aims to help romanian high-school students prepare for olympiads.',
+			technologies: ['React.js', 'Express.js', 'MongoDB', 'Auth0'],
+			link: 'https://www.olympiaid.study/',
+			githubLink: 'https://github.com/VeressIris/unihack2024',
+			date: 'August 2024'
+		},
+		{
+			title: 'Go Calculator API',
+			description: 'An API built with Go that simulates a calculator.',
+			technologies: ['Go'],
+			link: 'https://gocalculatorapi.onrender.com/',
+			githubLink: 'https://github.com/VeressIris/GOcalculatorAPI',
+			date: 'August 2024'
+		},
+		{
+			title: 'GradeCalc+',
+			description:
+				'An android & desktop app That I built for calculating the grades need in order to achieve a certain average.',
+			technologies: ['Android Studio', 'Kotlin', 'WinForms'],
+			link: 'https://github.com/VeressIris/GradeCalcPlus/releases',
+			githubLink: 'https://github.com/VeressIris/GradeCalcPlus',
+			date: 'September 2023'
+		},
+		{
 			title: 'Comandă atestate',
 			description: 'A web app for ordering high-school graduation certificates.',
 			technologies: ['SvelteKit', 'Tailwindcss', 'express.js', 'MongoDB'],
@@ -12,7 +38,7 @@
 		},
 		{
 			title: 'Sveltle',
-			description: 'A Wordle clone built with Svelte.',
+			description: 'A Wordle clone built with Svelte and Random word API.',
 			technologies: ['SvelteKit', 'Tailwindcss', 'express.js', 'MongoDB'],
 			link: 'https://sveltle.vercel.app/',
 			githubLink: 'https://github.com/VeressIris/Sveltle',
