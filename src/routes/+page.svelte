@@ -1,5 +1,5 @@
 <script>
-	const skills = [
+	const personalSkills = [
 		{
 			title: 'Dedicated',
 			description:
@@ -22,13 +22,59 @@
 		}
 	];
 
+	const professionalSkills = [
+		{
+			title: 'Backend development',
+			description:
+				'I have experience with <span class="text-cyan">Express.js</span> and the standard <span class="text-cyan">Go HTTP library</span>. I have also worked with <span class="text-cyan">MongoDB</span>, <span class="text-cyan">Firebase</span>, <span class="text-cyan">Supabase</span> and <span class="text-cyan">Auth0</span>.'
+		},
+		{
+			title: 'AI & machine learning',
+			description:
+				'I have experience with <span class="text-cyan">Python</span>, <span class="text-cyan">Scikit-Learn</span> and <span class="text-cyan">Pytorch</span>. I have also briefly worked with <span class="text-cyan">OpenCV</span> and <i>fine-tuning</i> on <span class="text-cyan">HuggingFace</span>.'
+		},
+		{
+			title: 'Full-stack development',
+			description:
+				'I have experience with <span class="text-cyan">React.js</span> and <span class="text-cyan">SvelteKit</span>. I am also proficient with <span class="text-cyan">TailwindCSS</span> and have worked with <span class="text-cyan">Bootstrap</span>.'
+		},
+		{
+			title: 'Game development',
+			description:
+				'I have built both 2D and 3D games with <span class="text-cyan">Unity</span> and <span class="text-cyan">C#</span> that have been published on <a class="text-cyan hover:underline" href="https://midnightdovedev.itch.io/" target="_blank">itch.io</a>.'
+		}
+	];
+
 	const prfessionalInterests = [
 		'Backend development',
 		'AI & machine learning',
 		'Full-stack development',
 		'Game development'
 	];
-	const personalInterests = ['Music 🎸', 'Film-making 🎥', 'Hiking 🏕️', 'Gaming 🎮'];
+	const personalInterests = [
+		{
+			title: 'Music',
+			emoji: '🎸',
+			description: "I've been playing guitar for almost 8 years now."
+		},
+		{
+			title: 'Film-making',
+			emoji: '🎥',
+			description:
+				'I love putting together (recording, editing) short cinematic videos from my trips.'
+		},
+		{
+			title: 'Hiking',
+			emoji: '🏕️',
+			description: 'Having been a scout, hikes were the go-to activity.'
+		},
+		{
+			title: 'Gaming',
+			emoji: '🎮',
+			description:
+				"I've been playing video games since I was a little kid and I've never stopped since."
+		}
+	];
 </script>
 
 {#snippet skill(title, description)}
@@ -41,14 +87,6 @@
 	</div>
 {/snippet}
 
-{#snippet interests(interestsList)}
-	<ul class="ml-5 list-disc">
-		{#each interestsList as interest}
-			<li>{interest}</li>
-		{/each}
-	</ul>
-{/snippet}
-
 <div>
 	<div class="flex flex-col">
 		<h1 class="text-gold mr-3 font-bold">Hello!</h1>
@@ -59,24 +97,34 @@
 	<div class="my-8">
 		<h1 class="text-gold font-bold">About me</h1>
 		<p>
-			I'm an 18 year old final year high-school student and an <span class="text-green italic"
+			I'm an 18 year old final year high-school student and an <span class="text-cyan italic"
 				>aspiring software engineer</span
 			> based in Romania.
 		</p>
 	</div>
 	<div class="my-8">
-		<h1 class="text-gold font-bold">Skills</h1>
-		<div class="grid-cols-2 gap-12 md:grid">
-			{#each skills as sk}
+		<h1 class="text-gold font-bold">Professional skills</h1>
+		<div class="grid-cols-2 gap-x-16 gap-y-6 md:grid">
+			{#each professionalSkills as sk}
+				{@render skill(sk.title, sk.description)}
+			{/each}
+		</div>
+		<h1 class="text-gold mt-6 font-bold">Personal skills</h1>
+		<div class="grid-cols-2 gap-x-16 md:grid md:gap-y-6">
+			{#each personalSkills as sk}
 				{@render skill(sk.title, sk.description)}
 			{/each}
 		</div>
 	</div>
-	<div class="my-8">
-		<h1 class="text-gold font-bold">Interests</h1>
-		<h2 class="text-orange mb-1 text-2xl font-semibold italic">Professional</h2>
-		{@render interests(prfessionalInterests)}
-		<h2 class="text-orange mb-1 mt-2 text-2xl font-semibold italic">Personal</h2>
-		{@render interests(personalInterests)}
+	<div class="mb-4">
+		<h1 class="text-gold font-bold">Personal interests</h1>
+		<ul class="ml-5 list-disc">
+			{#each personalInterests as interest}
+				<li>
+					<span class="font-bold underline">{interest.title}</span>
+					{interest.emoji} - {interest.description}
+				</li>
+			{/each}
+		</ul>
 	</div>
 </div>
