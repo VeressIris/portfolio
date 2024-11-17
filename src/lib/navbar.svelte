@@ -72,7 +72,12 @@
 				'https://www.linkedin.com/in/iris-veress/',
 				'target="_blank"'
 			)}
-			{@render item('', 'Resume', '/', 'target="_blank"')}
+			{@render item(
+				'<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" class="mr-2" width="30px" fill="#FFFFFF"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>',
+				'Uni CV',
+				'https://pdflink.to/irisveresscv/',
+				'target="_blank"'
+			)}
 		</ul>
 	</div>
 </div>

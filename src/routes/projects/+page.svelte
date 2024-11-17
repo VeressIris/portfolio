@@ -5,7 +5,7 @@
 		{
 			title: 'OlympiAId',
 			description:
-				'A web app built with React.js, Express.js, MongoDB, Auth0 that aims to help romanian high-school students prepare for olympiads.',
+				'A web app built in 48h for Unihack 6 with React.js, Express.js, MongoDB, Auth0 that aims to help romanian high-school students prepare for olympiads.',
 			technologies: ['React.js', 'Express.js', 'MongoDB', 'Auth0'],
 			link: 'https://www.olympiaid.study/',
 			githubLink: 'https://github.com/VeressIris/unihack2024',
