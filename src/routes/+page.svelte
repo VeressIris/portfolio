@@ -79,7 +79,7 @@
 
 {#snippet skill(title, description)}
 	<div class="mb-4">
-		<h2 class="text-orange mb-1 text-2xl font-semibold italic">{title}</h2>
+		<h2 class="text-orange mb-1 mt-5 text-2xl font-semibold italic">{title}</h2>
 		<p>
 			<!-- @html just in case I need to add some spans or extra styling, etc. -->
 			{@html description}
@@ -120,7 +120,7 @@
 		<h1 class="text-gold font-bold">Personal interests</h1>
 		<ul class="ml-5 list-disc">
 			{#each personalInterests as interest}
-				<li>
+				<li class="my-1">
 					<span class="font-bold underline">{interest.title}</span>
 					{interest.emoji} - {interest.description}
 				</li>

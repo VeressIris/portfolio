@@ -7,7 +7,7 @@
 </script>
 
 {#snippet item(icon, text, link, target)}
-	<li class="px-6 py-4">
+	<li onclick={toggleSidebar} class="px-6 py-4">
 		<div class="flex items-center">
 			{@html icon}
 			<a href={link} {target} class="font-bold uppercase text-white hover:underline">{text}</a>
