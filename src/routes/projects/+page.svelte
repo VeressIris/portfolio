@@ -20,6 +20,14 @@
 			date: 'August 2024'
 		},
 		{
+			title: 'Sveltle',
+			description: 'A Wordle clone built with Svelte and Random word API.',
+			technologies: ['SvelteKit', 'Tailwindcss', 'express.js', 'MongoDB'],
+			link: 'https://sveltle.vercel.app/',
+			githubLink: 'https://github.com/VeressIris/Sveltle',
+			date: 'July 2024'
+		},
+		{
 			title: 'GradeCalc+',
 			description:
 				'An android & desktop app That I built for calculating the grades need in order to achieve a certain average.',
@@ -37,12 +45,13 @@
 			date: 'June 2024'
 		},
 		{
-			title: 'Sveltle',
-			description: 'A Wordle clone built with Svelte and Random word API.',
-			technologies: ['SvelteKit', 'Tailwindcss', 'express.js', 'MongoDB'],
-			link: 'https://sveltle.vercel.app/',
-			githubLink: 'https://github.com/VeressIris/Sveltle',
-			date: 'July 2024'
+			title: 'Norway quiz',
+			description:
+				"A web quiz that I built for my geography class to test my classmate's knowledge on Norway.",
+			technologies: ['SvelteKit', 'Tailwindcss', 'MongoDB'],
+			link: 'https://quiz-norvegia.vercel.app/',
+			githubLink: 'https://github.com/VeressIris/quizNorvegia',
+			date: 'November 2024'
 		},
 		{
 			title: 'The Order of the Enchanted Gift',
