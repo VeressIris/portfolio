@@ -87,6 +87,10 @@
 	</div>
 {/snippet}
 
+<svelte:head>
+    <title>Iris Veress | Home</title>
+</svelte:head>
+
 <div>
 	<div class="flex flex-col">
 		<h1 class="text-gold mr-3 font-bold">Hello!</h1>

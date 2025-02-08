@@ -3,6 +3,24 @@
 
 	const projects = [
 		{
+			title: 'Table to MongoDB converter',
+			description:
+				'A web app that converts Google Sheets/Microsoft Excel tables into a MongoDB database, powered by a Flask backend and Svelte frontend.',
+			technologies: ['Svelte', 'Tailwindcss', 'Flask', 'MongoDB'],
+			link: 'https://tabletomongodb.vercel.app/',
+			githubLink: 'https://github.com/VeressIris/excelToMongoDb',
+			date: 'December 2024'
+		},
+		{
+			title: 'Minimalist Poster Generator',
+			description:
+				'A web app that generates minimalist movie/TV show posters based on an uploaded image. The movie data is fetched from themoviedb API.',
+			technologies: ['SvelteKit', 'Tailwindcss'],
+			link: 'https://minimalist-poster-generator.vercel.app/',
+			githubLink: 'https://github.com/VeressIris/moviePosterGenerator',
+			date: 'January 2025'
+		},
+		{
 			title: 'OlympiAId',
 			description:
 				'A web app built in 48h for Unihack 6 with React.js, Express.js, MongoDB, Auth0 that aims to help romanian high-school students prepare for olympiads.',
@@ -64,6 +82,10 @@
 		}
 	];
 </script>
+
+<svelte:head>
+	<title>Iris Veress | Projects</title>
+</svelte:head>
 
 <div>
 	<h1 class="text-gold mr-3 font-bold">Projects</h1>

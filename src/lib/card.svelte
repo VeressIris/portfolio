@@ -5,22 +5,22 @@
 <div
 	class="border-light-gray-200 my-4 flex max-w-[800px] flex-col justify-between rounded-lg border-2 border-solid bg-gray-100 p-5"
 >
-	<div class="mb-4">
+	<div class="mb-4 flex flex-1 flex-col">
 		<a
 			href={link}
 			target="_blank"
 			class="text-green border-green border-spacing-0 text-3xl font-bold transition-all duration-75 ease-in-out hover:border-b-2"
 			>{title}</a
 		>
-		<div class="mt-2">
+		<div class="mt-2 flex flex-1 flex-col justify-between">
 			<p class="mb-1"><span class="font-bold">Description:</span> {description}</p>
-			<p class="mb-1">
+			<p class="mb-2">
 				<span class="font-bold">Technologies:</span>
 				<span class="text-cyan">{technologies.join(', ')}</span>
 			</p>
 		</div>
 	</div>
-	<div class="mt-auto flex items-center justify-between">
+	<div class="flex items-center justify-between">
 		<a
 			href={githubLink}
 			target="_blank"
