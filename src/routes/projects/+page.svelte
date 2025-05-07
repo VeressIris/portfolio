@@ -3,6 +3,24 @@
 
 	const projects = [
 		{
+			title: 'TeamUp',
+			description:
+				'A web app built in 48 hours for ITfest 2025 that aims to connect students all over the world by matching them based on their projects & profiles.',
+			technologies: ['Next.js', 'Prisma', 'MUI', 'PostgreSQL'],
+			link: 'https://teamup-beige.vercel.app/',
+			githubLink: 'https://github.com/AndyStan112/teamup',
+			date: 'April 2025'
+		},
+		{
+			title: 'No Return Seed Calculator',
+			description:
+				'A website that calculates the seed of any daily run for The Last Of Us Part II Remastered No Return game mode.',
+			technologies: ['Svelte', 'Tailwindcss'],
+			link: 'https://tloudailyseeds.vercel.app/',
+			githubLink: 'https://github.com/VeressIris/noReturnSeedCalculator',
+			date: 'May 2025'
+		},
+		{
 			title: 'Table to MongoDB converter',
 			description:
 				'A web app that converts Google Sheets/Microsoft Excel tables into a MongoDB database, powered by a Flask backend and Svelte frontend.',
@@ -53,14 +71,6 @@
 			link: 'https://github.com/VeressIris/GradeCalcPlus/releases',
 			githubLink: 'https://github.com/VeressIris/GradeCalcPlus',
 			date: 'September 2023'
-		},
-		{
-			title: 'Comandă atestate',
-			description: 'A web app for ordering high-school graduation certificates.',
-			technologies: ['SvelteKit', 'Tailwindcss', 'express.js', 'MongoDB'],
-			link: 'https://comanda-atestate.vercel.app/',
-			githubLink: 'https://github.com/VeressIris/comanda-atestate',
-			date: 'June 2024'
 		},
 		{
 			title: 'Norway quiz',
