@@ -75,6 +75,8 @@
 				"I've been playing video games since I was a little kid and I've never stopped since."
 		}
 	];
+
+	const age = new Date().getFullYear() - 2006;
 </script>
 
 {#snippet skill(title, description)}
@@ -101,9 +103,8 @@
 	<div class="my-8">
 		<h1 class="text-gold font-bold">About me</h1>
 		<p>
-			I'm a 19 year old final year high-school student and an <span class="text-cyan italic"
-				>aspiring software engineer</span
-			> based in Romania.
+			I'm a {age} year old final year high-school student and an
+			<span class="text-cyan italic">aspiring software engineer</span> based in Romania.
 		</p>
 	</div>
 	<div class="my-8">
