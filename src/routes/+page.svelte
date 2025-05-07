@@ -26,7 +26,7 @@
 		{
 			title: 'Backend development',
 			description:
-				'I have experience with <span class="text-cyan">Express.js</span> and the standard <span class="text-cyan">Go HTTP library</span>. I have also worked with <span class="text-cyan">MongoDB</span>, <span class="text-cyan">Firebase</span>, <span class="text-cyan">Supabase</span> and <span class="text-cyan">Auth0</span>.'
+				'I have experience with <span class="text-cyan">Express.js</span> and the standard <span class="text-cyan">Go HTTP library</span>. I have also worked with <span class="text-cyan">MongoDB</span>, <span class="text-cyan">Supabase</span>, <span class="text-cyan">Clerk</span>, <span class="text-cyan">Firebase</span> and <span class="text-cyan">Auth0</span>.'
 		},
 		{
 			title: 'AI & machine learning',
@@ -36,7 +36,7 @@
 		{
 			title: 'Full-stack development',
 			description:
-				'I have experience with <span class="text-cyan">React.js</span> and <span class="text-cyan">SvelteKit</span>. I am also proficient with <span class="text-cyan">TailwindCSS</span> and have worked with <span class="text-cyan">Bootstrap</span>.'
+				'I have experience with <span class="text-cyan">React.js</span>, <span class="text-cyan">Next.js</span> and <span class="text-cyan">SvelteKit</span>. I am also proficient with <span class="text-cyan">TailwindCSS</span> and have briefly worked with <span class="text-cyan">Bootstrap</span>.'
 		},
 		{
 			title: 'Game development',
@@ -88,7 +88,7 @@
 {/snippet}
 
 <svelte:head>
-    <title>Iris Veress | Home</title>
+	<title>Iris Veress | Home</title>
 </svelte:head>
 
 <div>
@@ -101,7 +101,7 @@
 	<div class="my-8">
 		<h1 class="text-gold font-bold">About me</h1>
 		<p>
-			I'm an 18 year old final year high-school student and an <span class="text-cyan italic"
+			I'm a 19 year old final year high-school student and an <span class="text-cyan italic"
 				>aspiring software engineer</span
 			> based in Romania.
 		</p>

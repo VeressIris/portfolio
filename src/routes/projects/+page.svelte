@@ -58,7 +58,7 @@
 		{
 			title: 'Sveltle',
 			description: 'A Wordle clone built with Svelte and Random word API.',
-			technologies: ['SvelteKit', 'Tailwindcss', 'express.js', 'MongoDB'],
+			technologies: ['SvelteKit', 'Tailwindcss'],
 			link: 'https://sveltle.vercel.app/',
 			githubLink: 'https://github.com/VeressIris/Sveltle',
 			date: 'July 2024'
